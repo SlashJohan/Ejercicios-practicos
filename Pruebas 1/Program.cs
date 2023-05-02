@@ -10,7 +10,7 @@ namespace Pruebas_1
     {
         static void Main(string[] args)
         {
-
+            #region numeros primos
             Console.WriteLine("Digite un numero porfavor: ");
 
             int num = int.Parse(Console.ReadLine());
@@ -24,9 +24,57 @@ namespace Pruebas_1
 
             else
             {
-                Console.WriteLine("El numero " + num + "Es impar.");
+                Console.WriteLine("El numero " + num + " Es impar.");
+            }
+
+            Console.ReadKey();
+
+            #endregion
+
+            #region Dias de la semana
+
+            Console.WriteLine("Por favor digite un numero de la semana: ");
+
+            int numMes = int.Parse(Console.ReadLine());
+
+            switch (numMes)
+            {
+                case 1:
+                    Console.WriteLine("Dia de la semnana escogido: Lunes");
+                    break;
+
+                case 2:
+                    Console.WriteLine("Dia de la semnana escogido: Martes");
+                    break;
+
+                case 3:
+                    Console.WriteLine("Dia de la semnana escogido: Miercoles");
+                    break;
+
+                case 4:
+                    Console.WriteLine("Dia de la semnana escogido: Jueves");
+                    break;
+
+                case 5:
+                    Console.WriteLine("Dia de la semnana escogido: Viernes");
+                    break;
+
+                case 6:
+                    Console.WriteLine("Dia de la semnana escogido: Sabado");
+                    break;
+
+                case 7:
+                    Console.WriteLine("Dia de la semnana escogido: Domingo");
+                    break;
             }
             Console.ReadKey();
+            #endregion
+
+            #region Tablas de multiplicar
+            
+            
+            
+            #endregion
         }
 
 
