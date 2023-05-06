@@ -152,16 +152,27 @@ namespace Pruebas_1
             //Console.ReadKey();
             #endregion
 
-            #region Un for que recorre un array
+            #region Un for o foreach que recorre un array
 
-            int[] numeros = {1,2,3,4,5,6,7,8,9};
-            foreach (int i in numeros)
-            {
-               Console.WriteLine(i);
-            }
-            // Output: 4 5 6 1 2 3 -2 -1 0
+            //int[] numeros = {1,2,3,4,5,6,7,8,9};
+            //foreach (int i in numeros)
+            //{
+            //   Console.WriteLine(i);
+            //}
 
-            Console.ReadKey();
+            //Console.ReadKey();
+
+            #endregion
+
+            #region Cohete a la luna 2 con condicion diferente en el for
+
+            //for (int i = 0; i < 10; i++)
+            //{
+            //    Console.WriteLine("Listos para el despegue en #{0}:", i);
+            //}
+            //Console.WriteLine("Despegue" + ".......");
+
+            //Console.ReadKey();
 
             #endregion
 
