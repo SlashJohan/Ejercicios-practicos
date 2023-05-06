@@ -5,6 +5,7 @@ using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 using System.Xml;
+using Pruebas_1;
 
 namespace Pruebas_1
 {
@@ -164,7 +165,7 @@ namespace Pruebas_1
 
             #endregion
 
-            #region Cohete a la luna 2 con condicion diferente en el for
+            #region Cohete a la luna 2 con condicion diferente en el for y en orden ascendente
 
             //for (int i = 0; i < 10; i++)
             //{
@@ -176,6 +177,11 @@ namespace Pruebas_1
 
             #endregion
 
+            #region Metodos que se llaman del archivo Tetris para su ejecucion
+            
+            Tetris.pintarAreadeJuego();
+            
+            #endregion
         }
     }
 }

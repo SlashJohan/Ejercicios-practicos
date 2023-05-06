@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Pruebas_1
 {
-    internal class Tetris
+    public class Tetris
     {
         public static void pintarAreadeJuego()
         {
