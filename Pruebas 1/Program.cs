@@ -5,7 +5,6 @@ using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 using System.Xml;
-using Pruebas_1;
 
 namespace Pruebas_1
 {
@@ -177,11 +176,6 @@ namespace Pruebas_1
 
             #endregion
 
-            #region Metodos que se llaman del archivo Tetris para su ejecucion
-            
-            Tetris.pintarAreadeJuego();
-            
-            #endregion
         }
     }
 }
