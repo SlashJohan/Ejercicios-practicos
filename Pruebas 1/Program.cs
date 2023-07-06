@@ -176,6 +176,24 @@ namespace Pruebas_1
 
             #endregion
 
+            #region Recorre los numero de 1 a 100 y imprime indicando cuales son los pares y los impares
+                
+            //for(int i = 1; i <= 100; i++)
+            //{
+            //      if (i % 2 == 0)
+            //    {
+            //        Console.WriteLine($"{i} es un numero par");
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine($"{i} es un numero impar");
+            //    }
+                    
+            //    Console.ReadKey();
+            //}
+                
+            #endregion
+
         }
     }
 }
